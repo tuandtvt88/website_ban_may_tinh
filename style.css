@@ -1,0 +1,1011 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 40px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.web-nav {
+    width: 100%;
+    height: 88px;
+    background-color: #ce0707;
+    display: flex;
+    justify-content: center;
+}
+
+.web-nav .logo {
+    height: 100%;
+    width: 210px;
+}
+
+.web-nav .logo img {
+    width: 90%;
+    height: 90%;
+}
+
+.web-nav .search {
+    height: 100%;
+    width: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.web-nav .search .border-search {
+    height: 40px;
+    width: 386px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.web-nav .search input {
+    height: 38px;
+    width: 85%;
+    border: none;
+    outline: none;
+}
+
+.web-nav .search button {
+    height: 38px;
+    width: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.web-nav .search button .image {
+    height: 70%;
+    width: 45%;
+}
+
+.web-nav .search button:hover {
+    background-color: #d9d3d3;
+}
+
+.web-nav .search button img {
+    height: 70%;
+    width: 100%
+}
+
+.web-nav .header-nav {
+    height: 100%;
+    width: 475px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.web-nav .header-nav .store {
+    height: 100%;
+    width: 68px;
+    align-content: center;
+}
+
+.web-nav .header-nav .store a {
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+.web-nav .header-nav .store img {
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+
+.web-nav .header-nav .store .giohang {
+    width: 290px;
+    height: 48px;
+    /*background-color: white;*/
+    z-index: 2;
+}
+
+.web-nav .header-nav .laptopold {
+    height: 100%;
+    width: 105px;
+    align-content: center;
+}
+
+.web-nav .header-nav .laptopold img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.web-nav .header-nav .laptopold a {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.web-nav .header-nav .laptopold a:hover {
+    border-bottom: 1px solid white;
+}
+
+.web-nav .header-nav .news {
+    height: 100%;
+    width: 50px;
+    align-content: center;
+}
+
+.web-nav .header-nav .news img {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.web-nav .header-nav .news a {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.web-nav .header-nav .news a:hover {
+    border-bottom: 1px solid white;
+}
+
+.web-nav .header-nav .service {
+    height: 100%;
+    width: 122px;
+    text-align: center;
+    align-content: center;
+}
+
+.web-nav .header-nav .service img {
+    width: 50px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.web-nav .header-nav .service a {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.web-nav .header-nav .service a:hover {
+    border-bottom: 1px solid white;
+}
+
+.web-nav .header-nav .sale {
+    height: 100%;
+    width: 66px;
+    align-content: center;
+}
+
+.web-nav .header-nav .sale img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.web-nav .header-nav .sale a {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.web-nav .header-nav .sale a:hover {
+    border-bottom: 1px solid white;
+
+}
+
+.wide-nav {
+    width: 100%;
+    height: 42px;
+    border-bottom: 2px solid #f1ebeb;
+    display: flex;
+    justify-content: center;
+}
+
+.wide-nav .phone {
+    height: 100%;
+    width: 214px;
+}
+
+.wide-nav .phone img {
+    height: 100%;
+    width: 100%;
+}
+
+.wide-nav .menu-title {
+    height: 100%;
+    width: 207px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.wide-nav .menu-title .menu-icon {
+    width: 15px;
+    height: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.wide-nav .menu-title .menu-icon div {
+    width: 100%;
+    height: 1.5px;
+    background-color: #be233d;
+}
+
+.wide-nav .menu-title .category {
+    width: 1140px;
+    height: 71px;
+    background-color: white;
+    position: absolute;
+    top: 42px;
+    left: -2px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 2s, opacity 0.5s;
+    display: flex;
+
+}
+
+.wide-nav .menu-title:hover .category {
+    visibility: visible;
+    opacity: 1;
+}
+
+.wide-nav .menu-title .category .maytinhcu {
+    width: 130px;
+    height: 70px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 1px;
+}
+
+.wide-nav .menu-title .category .maytinhcu p {
+    font-size: 14px;
+}
+
+.wide-nav .menu-title .category .maytinhcu p:hover {
+    color: red;
+
+}
+
+.wide-nav .menu-title .category .maytinhcu:hover {
+    background-color: #f3f0f0;
+}
+
+.wide-nav .menu-title .category .maytinhcu .image {
+    height: 26px;
+    width: 28px;
+}
+
+.wide-nav .menu-title .category .maytinhcu .image img {
+    height: 100%;
+    width: 100%;
+}
+
+.wide-nav .address {
+    height: 100%;
+    width: 520px;
+    margin: 0px 153px 0px 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wide-nav .address .chamdo {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10;
+}
+
+.wide-nav .address .chamdo::before, .chamdon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    animation: pulse 1.5s infinite;
+}
+
+.wide-nav .address .chamdo::after {
+    animation-delay: 0.75s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0;
+    }
+}
+
+.wide-nav .phone {
+    height: 100%;
+    width: 211px;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    background-color: #f0eded;
+    display: grid;
+    justify-content: space-around;
+}
+
+.main .section-content {
+    width: 1144px;
+    height: 393px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main .section-content .carousel {
+    height: 100%;
+    width: 755px;
+}
+
+.main .section-content .column {
+    height: 100%;
+    width: 368px;
+}
+
+.main .section-content .column .inner {
+    width: 100%;
+    height: 199px;
+}
+
+.main .section-content .column img {
+    width: 100%;
+    height: 100%
+}
+
+.main .section-content .column .innerbottom {
+    width: 100%;
+    height: 193px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.main .section-content .column .innerbottom .item {
+    width: 344px;
+    height: 43px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.main .section-content .column .innerbottom .item img {
+    width: 77px;
+    height: 40px;
+}
+
+.main .section-content .column .innerbottom .item h5 {
+    font-size: 15px;
+}
+
+.covercarousel {
+    width: 756px;
+    height: 346px;
+
+}
+
+.textitemcarousel {
+    width: 755px;
+    height: 46px;
+    display: flex;
+    background-color: white;
+    border: none;
+}
+
+.itemcarousel {
+    width: 190px;
+    height: 46px;
+    cursor: pointer;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.itemcarousel.active {
+    background-color: #ce0707; /* Change background color to red */
+    color: white; /* Change text color to white for better contrast */
+
+}
+
+.main .home-contact {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    margin: 30px 0px;
+    display: flex;
+}
+
+.main .home-contact .title {
+    height: 100%;
+    width: 262px;
+    background-color: #ffffff;
+    display: flex;
+
+}
+
+.main .home-contact .title .content {
+    height: 100%;
+    width: 257px;
+    background-color: #ce0707;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .home-contact .title .arrow {
+    height: 100%;
+    width: 48px;
+    background-color: #ce0707;
+    clip-path: polygon(0% 100%, 50% 50%, 0% 0%, 0% 0%); /*tạo mũi tên*/
+
+}
+
+.running-text {
+    width: 882px; /* Chiều rộng của container */
+    height: 40px;
+    overflow: hidden; /* Ẩn phần vượt ra ngoài */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moving-text {
+    animation: moveRightToLeft 10s linear infinite; /* Tên animation, thời gian, kiểu easing và lặp vô hạn */
+    white-space: nowrap; /* Ngăn chặn dòng chữ bị ngắt */
+}
+
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.main .section-tieuchi {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .section-tieuchi .item-tieuchi {
+    height: 100%;
+    width: 271px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .section-tieuchi .item-tieuchi img {
+    height: 60%;
+    width: 45px;
+}
+
+.main .section-tieuchi .item-tieuchi .ckcl {
+    width: 200px;
+    height: 100%;
+    margin: 17px 0 0 10px;
+}
+
+.main .section-tieuchi .item-tieuchi .ckcl h6 {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main .caymtc {
+    height: 364px;
+    width: 100%;
+    background-color: white;
+    margin: 48px 0 0 0px;
+}
+
+.main .caymtc .content-caymtc {
+    width: 100%;
+    height: 41px;
+    border-bottom: 2px solid #ce0707;
+    display: flex;
+}
+
+.main .caymtc .content-caymtc .title-caymtc {
+    height: 100%;
+    width: 196px;
+    background-color: #ce0707;
+    border-radius: 0px 40px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .caymtc .content-caymtc .title-caymtc span {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.main .caymtc .content-caymtc .menu-caymtc {
+    height: 100%;
+    width: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .caymtc .content-caymtc .menu-caymtc .hdevvn_cats {
+    height: 100%;
+    width: 145px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main .caymtc .content-caymtc .menu-caymtc .hdevvn_cats a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #404045;
+    text-decoration: none;
+
+}
+
+.main .caymtc .content-caymtc .menu-caymtc .hdevvn_cats a:hover {
+    color: #ce0707;
+}
+
+.main .caymtc .content-caymtc .xemtc {
+    height: 100%;
+    width: 488px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.main .caymtc .content-caymtc .xemtc a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #404045;
+    text-decoration: none;
+}
+
+.main .caymtc .content-caymtc .xemtc a:hover {
+    color: #ce0707;
+}
+
+.main .caymtm {
+    height: 364px;
+    width: 100%;
+    background-color: white;
+    margin: 48px 0 0 0px;
+}
+
+.main .caymtm .content-caymtm {
+    width: 100%;
+    height: 41px;
+    border-bottom: 2px solid #ce0707;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .caymtm .content-caymtm .title-caymtm {
+    height: 100%;
+    width: 196px;
+    background-color: #ce0707;
+    border-radius: 0px 40px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .caymtm .content-caymtm .title-caymtm span {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.main .caymtm .content-caymtm .menu-caymtm {
+    height: 100%;
+    width: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.main .caymtm .content-caymtm .menu-caymtm .hdevvn_cats {
+    height: 100%;
+    width: 160px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main .caymtm .content-caymtm .menu-caymtm .hdevvn_cats a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #404045;
+    text-decoration: none;
+
+}
+
+.main .caymtm .content-caymtm .menu-caymtm .hdevvn_cats a:hover {
+    color: #ce0707;
+}
+
+
+.main .caymtm .content-caymtm .xemtc a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #404045;
+    text-decoration: none;
+}
+
+.main .caymtc .content-caymtm .xemtm a:hover {
+    color: #ce0707;
+}
+
+.main .caymtc .listcard {
+    width: 100%;
+    height: 322px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coverslidecarousel {
+    width: 1142px;
+    height: 348px;
+    display: flex;
+}
+
+.slideitemcarousel {
+    height: 348px;
+    width: 1142px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slidecarousel {
+    width: 216px;
+    height: 100%;
+
+}
+
+.slidecarousel .imagecardslide {
+    width: 100%;
+    height: 55%;
+    position: relative;
+}
+
+.slidecarousel .imagecardslide .titletopitem {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: #ce0707;
+    position: absolute;
+    top: 22px;
+    left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.slidecarousel .imagecardslide img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom styles for the carousel controls */
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23000" viewBox="0 0 8 8"%3E%3Cpath d="M4.707 1.707L3.414 0l-4 4 4 4 1.293-1.293L2.414 4l2.293-2.293z" /%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23000" viewBox="0 0 8 8"%3E%3Cpath d="M3.293 0L2 1.293 4.586 4 2 6.707 3.293 8l4-4-4-4z" /%3E%3C/svg%3E');
+}
+
+
+.stars {
+    color: gold; /* Màu vàng */
+    font-size: 15px;
+}
+
+.main .caymtc .listcard .listmay {
+    height: 100%;
+    width: 212px;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Thay đổi con trỏ chuột thành bàn tay */
+}
+
+.main .caymtc .listcard .listmay .image {
+    width: 100%;
+    height: 181px;
+    position: relative;
+}
+
+.main .caymtc .listcard .listmay .image .textabove {
+    height: 50px;
+    width: 50px;
+    background-color: #ce0707;
+    position: absolute;
+    border-radius: 50%;
+    top: 10px;
+    left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .caymtc .listcard .listmay .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .caymtc .listcard .listmay .text {
+    width: 100%;
+    height: 116px;
+}
+
+.caymtc .otherservices {
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caymtc .otherservices .itemotherservices {
+    height: 100%;
+    width: 157px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.caymtc .otherservices .itemotherservices:hover {
+    background: linear-gradient(to bottom, #eff6f5, #ffffff);
+}
+
+.caymtc .otherservices .itemotherservices .image {
+    width: 105px;
+    height: 105px;
+    margin-left: 25px;
+
+}
+
+.caymtc .otherservices .itemotherservices .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.main .backgroundimage {
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .backgroundimage .image {
+    width: 563px;
+    height: 100%;
+}
+
+.main .backgroundimage .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caymtc .othergioithieumain {
+    width: 100%;
+    height: 544px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0eded;
+}
+
+
+.caymtc .othergioithieumain .othergioithieu {
+    width: 760px;
+    height: 598px;
+
+}
+
+.caymtc .othergioithieumain .othergioithieu .topothergioithieu {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caymtc .othergioithieumain .othergioithieu .topothergioithieu .itemothergioithieu {
+    height: 284px;
+    width: 239px;
+    cursor: pointer;
+}
+
+.caymtc .othergioithieumain .othergioithieu .topothergioithieu .itemothergioithieu .image {
+    width: 238px;
+    height: 132px;
+    overflow: hidden;
+}
+
+.caymtc .othergioithieumain .othergioithieu .topothergioithieu .itemothergioithieu .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: block; /* Hiển thị hình ảnh như là một khối */
+    transition: transform 1.5s ease; /* Hiệu ứng chuyển đổi dựa trên thuộc tính transform */
+}
+
+.caymtc .othergioithieumain .othergioithieu .topothergioithieu .itemothergioithieu .image img:hover {
+    transform: scale(1.2);
+}
+
+.caymtc .othergioithieumain .othergioithieu .topothergioithieu .itemothergioithieu:hover h6 {
+    color: red;
+}
+
+.caymtc .othergioithieumain .gioithieuright {
+    width: 369px;
+    height: 545px;
+    display: grid;
+    align-items: center;
+    background-color: #f0eded;
+}
+
+.caymtc .othergioithieumain .gioithieuright .itemgioithieuright {
+    width: 100%;
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.caymtc .othergioithieumain .gioithieuright .itemgioithieuright .image {
+    width: 98px;
+    height: 68px;
+
+}
+
+.caymtc .othergioithieumain .gioithieuright .itemgioithieuright .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.caymtc .othergioithieumain .gioithieuright .itemgioithieuright .text {
+    width: 255px;
+    height: 69px;
+
+}
+
+.caymtc .othergioithieumain .gioithieuright .itemgioithieuright .text h6 {
+    font-weight: bold;
+}
+
+.caymtc .othergioithieumain .gioithieuright .itemgioithieuright .text:hover {
+    color: #ec0e0e;
+}
+.information {
+    width: 100%;
+    height: 552px;
+    background-color: #ffffff;
+    display: grid;
+    justify-content: space-around;
+}
+.information .informatino1 {
+    width: 1158px;
+    height: 256px;
+    display: flex;
+}
+.information .informatino1 .tabinforleft {
+height: 100%;
+    width: 863px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information .informatino1 .tabinforleft .infor {
+    width: 260px;
+    height: 225px;
+}
+.information .informatino1 .tabinforleft .infor p {
+    margin: 5px;
+    cursor: pointer;
+}
+.information .informatino1 .tabinforleft .infor p:hover {
+    color: red;
+}
+.information .informatino1 .tabinforright {
+    width: 286px;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+.information .informatino1 .tabinforright .image {
+    width: 100%;
+    height: 190px;
+}
+.information .informatino1 .tabinforright .image img {
+    height: 100%;
+    width: 100%;
+}
+.information .informatino1 .image {
+    height: 100%;
+    width: 100%;
+}
+.information .informatino1 .image img {
+    height: 100%;
+    width: 100%;
+}
+.banquyen {
+    width: 100%;
+    height: 43px;
+}
+.banquyen img {
+    height: 100%;
+    width: 100%;
+}

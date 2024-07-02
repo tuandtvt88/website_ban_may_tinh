@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js"></script>
+
+</head>
+<body>
+<div class="container-fuild">
+    <div class="banner">
+        <img src="image/banner.jpg" alt="">
+    </div>
+    <div class="web-nav">
+        <div class="logo">
+            <img src="image/tran-anh-logo.png">
+        </div>
+        <div class="search">
+            <div class="border-search">
+                <input type="text" placeholder="Tìm kiếm...">
+                <button>
+                    <div class="image">
+                        <img src="image/iconsearch.png">
+                    </div>
+                </button>
+                </input>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="store">
+                <a>Giỏ hàng</a>
+                <img src="image/cart-icon.png" alt="">
+                <div class="giohang"></div>
+            </div>
+            <div class="laptopold">
+                <img src="image/kholaptopcu.jpg" alt="">
+                <a>Kho laptop cũ</a>
+            </div>
+            <div class="news">
+                <img src="image/tintuc.jpg" alt="">
+                <a>Tin tức</a>
+            </div>
+            <div class="service">
+                <img src="image/dichvusuachua.jpg" alt="">
+                <a>Dịch vụ sửa chữa</a>
+            </div>
+            <div class="sale">
+                <img src="image/giamgia.jpg" alt="">
+                <a>Giảm giá</a>
+            </div>
+        </div>
+    </div>
+    <div class="wide-nav">
+        <div class="menu-title">
+            <div class="menu-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <h6 style="margin: 0;color: #ce0707">DANH MỤC SẢN PHẨM</h6>
+            <div class="category">
+                <div class="maytinhcu">
+                    <div class="image">
+                        <img src="image/pc-old.png" alt="">
+                    </div>
+                    <p>Cây máy tính cũ</p>
+                </div>
+                <div class="maytinhcu">
+                    <div class="image">
+                        <img src="image/pc-new.png" alt="">
+                    </div>
+                    <p>Cây máy tính mới</p>
+                </div>
+                <div class="maytinhcu">
+                    <div class="image">
+                        <img src="image/laptop.png" alt="">
+                    </div>
+                    <p>Laptop cũ</p>
+                </div>
+                <div class="maytinhcu">
+                    <div class="image">
+                        <img src="image/printer.png" alt="">
+                    </div>
+                    <p>Máy in cũ</p>
+                </div>
+                <div class="maytinhcu">
+                    <div class="image">
+                        <img src="image/cat-7.png" alt="">
+                    </div>
+                    <p>Máy tính chơi game</p>
+                </div>
+                <div class="maytinhcu">
+                    <div class="image">
+                        <img src="image/cat-3.png" alt="">
+                    </div>
+                    <p>Máy tính đồ họa</p>
+                </div>
+            </div>
+        </div>
+        <div class="address">
+            <div class="chamdo"></div>
+            <p style="font-size: 14px;margin: 0">
+                Công ty Máy tính Trần Anh Hà Nội - Trụ sở: Số 88 Tô Vĩnh Diện, Thanh Xuân, HN</p>
+        </div>
+        <div class="phone">
+            <img src="image/phone.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="section-content">
+            <div class="covercarousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators hai">
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image/slide4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/slider1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/slider2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/SLIDER3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                            data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                            data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+                <div class="textitemcarousel">
+                    <div class="itemcarousel active" data-target="#carouselExampleIndicators" data-slide-to="0">Tuần lễ
+                        giảm giá khi
+                        build PC chơi game
+                    </div>
+                    <div class="itemcarousel" data-target="#carouselExampleIndicators" data-slide-to="1">Dịch vụ sửa
+                        chữa máy tính tại
+                        nhà
+                    </div>
+                    <div class="itemcarousel" data-target="#carouselExampleIndicators" data-slide-to="2">Sửa chữa máy
+                        tính uy tín chuyên
+                        nghiệp
+                    </div>
+                    <div class="itemcarousel" data-target="#carouselExampleIndicators" data-slide-to="3">Combo gaming
+                        Vip giảm tới 50%
+                        nhân dịp Trung Thu
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="inner">
+                    <img src="image/uu-dai-lon-cho-hssv-370x200-1.jpg" alt="">
+                </div>
+                <div class="innerbottom">
+                    <div class="item">
+                        <img src="image/2009_impact_2_electropunk_1.jpg" alt="">
+                        <h5>Asus Giới Thiệu Sản Phẩm Chuột Quang Dây ROG Strix Impact II Electro Punk</h5>
+                    </div>
+                    <div class="item">
+                        <img src="image/2109_xxl_sheath_electropunk_6.jpg" alt="">
+                        <h5>Asus Giới Thiệu Sản Phẩm Bàn Di Chơi Game ROG Strix Sheath Electro Punk</h5>
+                    </div>
+                    <div class="item">
+                        <img src="image/0509_69C005F3-495A-4BF4-87F9-5505DBA3657A.jpeg" alt="">
+                        <h5>Đánh giá Bàn phím cơ không dây PXN K30 thích ứng mọi nền tảng, nhỏ xinh cho vào cốp xe
+                            máy</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-contact">
+            <div class="title">
+                <div class="content">
+                    <span>Liên hệ với Trần Anh Computer</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="running-text">
+                <div class="moving-text">Số 88 Tô Vĩnh Diện – Thanh Xuân – HN – Điện thoại: 0983.456.132 –
+                    081.9392.8883
+                </div>
+            </div>
+        </div>
+        <div class="section-tieuchi">
+            <div class="item-tieuchi">
+                <img src="image/1.png" alt="">
+                <div class="ckcl">
+                    <h6>CAM KẾT CHẤT LƯỢNG</h6>
+                    <P>Tuyệt đối an tâm</P>
+                </div>
+            </div>
+            <div class="item-tieuchi">
+                <img src="image/2.png" alt="">
+                <div class="ckcl">
+                    <h6>BẢO HÀNH VÀNG</h6>
+                    <P>100% khách hàng hài lòng</P>
+                </div>
+            </div>
+            <div class="item-tieuchi">
+                <img src="image/3.png" alt="">
+                <div class="ckcl">
+                    <h6>CAM KẾT GIÁ TỐT NHẤT</h6>
+                    <P>Khỏi mất công so sánh giá</P>
+                </div>
+            </div>
+            <div class="item-tieuchi">
+                <img src="image/4.png" alt="">
+                <div class="ckcl">
+                    <h6>DỊCH VỤ HẬU MÃI</h6>
+                    <P>Support chọn đời sản phẩm</P>
+                </div>
+            </div>
+        </div>
+        <div class="caymtc">
+            <div class="content-caymtc">
+                <div class="title-caymtc">
+                    <span>CÂY MÁY TÍNH CŨ</span>
+                </div>
+                <div class="menu-caymtc">
+                    <li class="hdevvn_cats">
+                        <a href="#">MÁY CŨ TỰ BUILD</a>
+                    </li>
+                    <li class="hdevvn_cats">
+                        <a href="#">MÁY ĐỒNG BỘ DELL</a>
+                    </li>
+                    <li class="hdevvn_cats">
+                        <a href="#">MÁY ĐỒNG BỘ HP</a>
+                    </li>
+                </div>
+                <div class="xemtc">
+                    <a href="#" target>Xem tất cả ></a>
+                </div>
+            </div>
+            <div class="listcard">
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/07-1.jpg" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-16%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP:3546</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Máy tính để bàn KG500-545 cũ
+                            99%</h6>
+                        <h5 style="color: red;margin: 0">2.100.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">2.500.000 đ</a>
+                    </div>
+                </div>
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/img23.jpg" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-19%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP: NBLG0013</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Laptop Asus Vivobook S14
+                            S431FL-EB145T-Bạc</h6>
+                        <h5 style="color: red;margin: 0">16.990.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">20.990.000 đ</a>
+                    </div>
+                </div>
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/img12.jpg" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-4%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP: NBMS0215</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Laptop MSI Modern 14 A10M
+                            1053VN</h6>
+                        <h5 style="color: red;margin: 0">15.290.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">15.990.000 đ</a>
+                    </div>
+                </div>
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/img5.png" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-8%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP: NBHP0481</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Laptop HP 15s-fq1017TU
+                            8VY69PA (Silver)</h6>
+                        <h5 style="color: red;margin: 0">14.190.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">15.490.000 đ</a>
+                    </div>
+                </div>
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/img4.jpg" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-7%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP: NBHP0386</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Laptop HP 15s-fq1022TU
+                            8VY75PA</h6>
+                        <h5 style="color: red;margin: 0">16.790.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">17.990.000 đ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="caymtm">
+            <div class="content-caymtm">
+                <div class="title-caymtm">
+                    <span>CÂY MÁY TÍNH MỚI</span>
+                </div>
+                <div class="menu-caymtm">
+                    <li class="hdevvn_cats">
+                        <a href="#">MÁY TÍNH CHƠI GAME</a>
+                    </li>
+                    <li class="hdevvn_cats">
+                        <a href="#">MÁY TÍNH ĐỒ HỌA</a>
+                    </li>
+                    <li class="hdevvn_cats">
+                        <a href="#">MÁY TÍNH GIÁ RẺ</a>
+                    </li>
+                    <li class="hdevvn_cats">
+                        <a href="#">MÁY TÍNH SINH VIÊN</a>
+                    </li>
+                    <li class="hdevvn_cats">
+                        <a href="#">MÁY TÍNH VĂN PHÒNG</a>
+                    </li>
+                </div>
+                <div class="xemtc">
+                    <a href="#" target>Xem tất cả ></a>
+                </div>
+            </div>
+            <div class="coverslidecarousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-hp-laserjet-printer-m1132mfp-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-29%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983D</a>
+                                    <h6>Máy in HP LaserJet Printer M1132MFP cũ</h6>
+                                    <h5 style="color: red">3.200.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">4.500.000 đ</p>
+
+                                </div>
+
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/07-1.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-16%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: 3546</a>
+                                    <h6>Máy tính để bàn KG500-545 cũ 99%</h6>
+                                    <h5 style="color: red">2.100.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.500.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img17.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-8%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBAC0230</a>
+                                    <h6 style="font-size: 15px">Laptop Acer Gaming Nitro 5 AN515-55-70AX
+                                        NH.Q7NSV.001</h6>
+                                    <h5 style="color: red">26.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">29.290.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/img23.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-19%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBLG0013</a>
+                                    <h6>Laptop Asus Vivobook S14 S431FL-EB145T-Bạc</h6>
+                                    <h5 style="color: red">16.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">20.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/41BJUKYb3uL.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-13%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS9833445</a>
+                                    <h6>Laptop Gaming Acer Aspire 7 A715 41G R8KQ</h6>
+                                    <h5 style="color: red">13.000.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.000.000 đ</p>
+
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/img14.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBHP0419</a>
+                                    <h6>Laptop HP Spectre x360 Convertible 13-aw0181TU</h6>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h5 style="color: red">45.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">47.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img12.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBMS0215</a>
+                                    <h6 style="font-size: 15px">Laptop MSI Modern 14 A10M 1053VN</h6>
+                                    <h5 style="color: red">15.290.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-a3-canon-lbp-3500-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-42%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983</a>
+                                    <h6>Máy in A3 cũ 90% CANON LBP 3500</h6>
+                                    <h5 style="color: red">1.500.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.600.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/41BJUKYb3uL.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-13%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS9833445</a>
+                                    <h6>Laptop Gaming Acer Aspire 7 A715 41G R8KQ</h6>
+                                    <h5 style="color: red">13.000.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.000.000 đ</p>
+
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/img14.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBHP0419</a>
+                                    <h6>Laptop HP Spectre x360 Convertible 13-aw0181TU</h6>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h5 style="color: red">45.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">47.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img12.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBMS0215</a>
+                                    <h6 style="font-size: 15px">Laptop MSI Modern 14 A10M 1053VN</h6>
+                                    <h5 style="color: red">15.290.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-a3-canon-lbp-3500-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-42%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983</a>
+                                    <h6>Máy in A3 cũ 90% CANON LBP 3500</h6>
+                                    <h5 style="color: red">1.500.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.600.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/41BJUKYb3uL.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-13%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS9833445</a>
+                                    <h6>Laptop Gaming Acer Aspire 7 A715 41G R8KQ</h6>
+                                    <h5 style="color: red">13.000.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.000.000 đ</p>
+
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/img14.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBHP0419</a>
+                                    <h6>Laptop HP Spectre x360 Convertible 13-aw0181TU</h6>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h5 style="color: red">45.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">47.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img12.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBMS0215</a>
+                                    <h6 style="font-size: 15px">Laptop MSI Modern 14 A10M 1053VN</h6>
+                                    <h5 style="color: red">15.290.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-a3-canon-lbp-3500-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-42%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983</a>
+                                    <h6>Máy in A3 cũ 90% CANON LBP 3500</h6>
+                                    <h5 style="color: red">1.500.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.600.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/41BJUKYb3uL.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-13%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS9833445</a>
+                                    <h6>Laptop Gaming Acer Aspire 7 A715 41G R8KQ</h6>
+                                    <h5 style="color: red">13.000.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.000.000 đ</p>
+
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/img14.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBHP0419</a>
+                                    <h6>Laptop HP Spectre x360 Convertible 13-aw0181TU</h6>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h5 style="color: red">45.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">47.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img12.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBMS0215</a>
+                                    <h6 style="font-size: 15px">Laptop MSI Modern 14 A10M 1053VN</h6>
+                                    <h5 style="color: red">15.290.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-a3-canon-lbp-3500-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-42%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983</a>
+                                    <h6>Máy in A3 cũ 90% CANON LBP 3500</h6>
+                                    <h5 style="color: red">1.500.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.600.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
+                            data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
+                            data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="caymtc">
+            <div class="content-caymtc">
+                <div class="title-caymtc">
+                    <span>KHO LAPTOP CŨ</span>
+                </div>
+                <div class="menu-caymtc" style="justify-content: start">
+                    <li class="hdevvn_cats" style="width: 70px">
+                        <a href="#">ACER</a>
+                    </li>
+                    <li class="hdevvn_cats" style="width: 70px">
+                        <a href="#">ASUS</a>
+                    </li>
+                    <li class="hdevvn_cats" style="width: 72px">
+                        <a href="#">DELL</a>
+                    </li>
+                    <li class="hdevvn_cats" style="width: 72px">
+                        <a href="#">MACBOOK</a>
+                    </li>
+
+                </div>
+                <div class="xemtc">
+                    <a href="#" target>Xem tất cả ></a>
+                </div>
+            </div>
+            <div class="listcard">
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/07-1.jpg" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-16%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP:3546</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Máy tính để bàn KG500-545 cũ
+                            99%</h6>
+                        <h5 style="color: red;margin: 0">2.100.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">2.500.000 đ</a>
+                    </div>
+                </div>
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/img23.jpg" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-19%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP: NBLG0013</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Laptop Asus Vivobook S14
+                            S431FL-EB145T-Bạc</h6>
+                        <h5 style="color: red;margin: 0">16.990.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">20.990.000 đ</a>
+                    </div>
+                </div>
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/img12.jpg" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-4%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP: NBMS0215</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Laptop MSI Modern 14 A10M
+                            1053VN</h6>
+                        <h5 style="color: red;margin: 0">15.290.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">15.990.000 đ</a>
+                    </div>
+                </div>
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/img5.png" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-8%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP: NBHP0481</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Laptop HP 15s-fq1017TU
+                            8VY69PA (Silver)</h6>
+                        <h5 style="color: red;margin: 0">14.190.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">15.490.000 đ</a>
+                    </div>
+                </div>
+                <div class="listmay">
+                    <div class="image">
+                        <img src="image/img4.jpg" alt="">
+                        <div class="textabove">
+                            <a style="color: white;font-weight: bold">-7%</a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <a style="color: #ce0707">Mã SP: NBHP0386</a>
+                        <h6 style="font-weight: bold;font-size: 15px;margin: 0;padding: 0">Laptop HP 15s-fq1022TU
+                            8VY75PA</h6>
+                        <h5 style="color: red;margin: 0">16.790.000 đ</h5>
+                        <a style="text-decoration: line-through;font-weight: lighter">17.990.000 đ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="caymtm">
+            <div class="content-caymtm">
+                <div class="title-caymtm">
+                    <span>MÁY IN CŨ</span>
+                </div>
+                <div class="menu-caymtm" style="display: flex;justify-content: start">
+                    <li class="hdevvn_cats" style="width: 170px">
+                        <a href="#">MÁY IN ĐA CHỨC NĂNG</a>
+                    </li>
+                    <li class="hdevvn_cats" style="width: 150px">
+                        <a href="#">MÁY IN ĐƠN NĂNG</a>
+                    </li>
+                    <li class="hdevvn_cats" style="width: 115px">
+                        <a href="#">MÁY IN LAZER</a>
+                    </li>
+                    <li class="hdevvn_cats" style="width: 107px">
+                        <a href="#">MÁY IN PHUN</a>
+                    </li>
+                </div>
+                <div class="xemtc">
+                    <a href="#" target>Xem tất cả ></a>
+                </div>
+            </div>
+            <div class="coverslidecarousel">
+                <div id="carouselExampleControlsmtm" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-hp-laserjet-printer-m1132mfp-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-29%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983D</a>
+                                    <h6>Máy in HP LaserJet Printer M1132MFP cũ</h6>
+                                    <h5 style="color: red">3.200.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">4.500.000 đ</p>
+
+                                </div>
+
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/07-1.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-16%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: 3546</a>
+                                    <h6>Máy tính để bàn KG500-545 cũ 99%</h6>
+                                    <h5 style="color: red">2.100.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.500.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img17.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-8%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBAC0230</a>
+                                    <h6 style="font-size: 15px">Laptop Acer Gaming Nitro 5 AN515-55-70AX
+                                        NH.Q7NSV.001</h6>
+                                    <h5 style="color: red">26.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">29.290.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/img23.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-19%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBLG0013</a>
+                                    <h6>Laptop Asus Vivobook S14 S431FL-EB145T-Bạc</h6>
+                                    <h5 style="color: red">16.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">20.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/41BJUKYb3uL.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-13%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS9833445</a>
+                                    <h6>Laptop Gaming Acer Aspire 7 A715 41G R8KQ</h6>
+                                    <h5 style="color: red">13.000.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.000.000 đ</p>
+
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/img14.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBHP0419</a>
+                                    <h6>Laptop HP Spectre x360 Convertible 13-aw0181TU</h6>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h5 style="color: red">45.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">47.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img12.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBMS0215</a>
+                                    <h6 style="font-size: 15px">Laptop MSI Modern 14 A10M 1053VN</h6>
+                                    <h5 style="color: red">15.290.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-a3-canon-lbp-3500-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-42%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983</a>
+                                    <h6>Máy in A3 cũ 90% CANON LBP 3500</h6>
+                                    <h5 style="color: red">1.500.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.600.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/41BJUKYb3uL.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-13%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS9833445</a>
+                                    <h6>Laptop Gaming Acer Aspire 7 A715 41G R8KQ</h6>
+                                    <h5 style="color: red">13.000.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.000.000 đ</p>
+
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/img14.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBHP0419</a>
+                                    <h6>Laptop HP Spectre x360 Convertible 13-aw0181TU</h6>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h5 style="color: red">45.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">47.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img12.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBMS0215</a>
+                                    <h6 style="font-size: 15px">Laptop MSI Modern 14 A10M 1053VN</h6>
+                                    <h5 style="color: red">15.290.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-a3-canon-lbp-3500-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-42%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983</a>
+                                    <h6>Máy in A3 cũ 90% CANON LBP 3500</h6>
+                                    <h5 style="color: red">1.500.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.600.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/41BJUKYb3uL.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-13%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS9833445</a>
+                                    <h6>Laptop Gaming Acer Aspire 7 A715 41G R8KQ</h6>
+                                    <h5 style="color: red">13.000.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.000.000 đ</p>
+
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/img14.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBHP0419</a>
+                                    <h6>Laptop HP Spectre x360 Convertible 13-aw0181TU</h6>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h5 style="color: red">45.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">47.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img12.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBMS0215</a>
+                                    <h6 style="font-size: 15px">Laptop MSI Modern 14 A10M 1053VN</h6>
+                                    <h5 style="color: red">15.290.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-a3-canon-lbp-3500-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-42%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983</a>
+                                    <h6>Máy in A3 cũ 90% CANON LBP 3500</h6>
+                                    <h5 style="color: red">1.500.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.600.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slideitemcarousel">
+                                <div class="slidecarousel active" data-target="#carouselExampleIndicators"
+                                     data-slide-to="0">
+                                    <div class="imagecardslide">
+                                        <img src="image/41BJUKYb3uL.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-13%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS9833445</a>
+                                    <h6>Laptop Gaming Acer Aspire 7 A715 41G R8KQ</h6>
+                                    <h5 style="color: red">13.000.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.000.000 đ</p>
+
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    <div class="imagecardslide">
+                                        <img src="image/img14.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBHP0419</a>
+                                    <h6>Laptop HP Spectre x360 Convertible 13-aw0181TU</h6>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h5 style="color: red">45.990.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">47.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    <div class="imagecardslide">
+                                        <img src="image/img12.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-4%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: NBMS0215</a>
+                                    <h6 style="font-size: 15px">Laptop MSI Modern 14 A10M 1053VN</h6>
+                                    <h5 style="color: red">15.290.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">15.990.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="3">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-a3-canon-lbp-3500-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-42%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983</a>
+                                    <h6>Máy in A3 cũ 90% CANON LBP 3500</h6>
+                                    <h5 style="color: red">1.500.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">2.600.000 đ</p>
+                                </div>
+                                <div class="slidecarousel" data-target="#carouselExampleIndicators" data-slide-to="4">
+                                    <div class="imagecardslide">
+                                        <img src="image/large_may-in-da-chuc-nang-hp-laserjet-1212nf-cu.jpg" alt="">
+                                        <div class="titletopitem">
+                                            <h6>-26%</h6>
+                                        </div>
+                                    </div>
+                                    <a href="" style="font-size: 13px;color: #ce0707">Mã SP: MS983334</a>
+                                    <h6>Máy in đa chức năng HP laserjet 1212NF cũ</h6>
+                                    <h5 style="color: red">4.800.000 đ</h5>
+                                    <p style="text-decoration: line-through;color: #717175">6.500.000 đ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
+                            data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
+                            data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="caymtc" style="width: 1145px;height: 234px">
+            <div class="content-caymtc">
+                <div class="title-caymtc">
+                    <span>DỊCH VỤ SỬA CHỮA</span>
+                </div>
+                <div class="xemtc" style="width: 950px">
+                    <a href="#" target>Xem tất cả ></a>
+                </div>
+            </div>
+            <div class="vien" style="width: 100%;height: 20px;background-color:#f0eded"></div>
+            <div class="otherservices">
+                <div class="itemotherservices">
+                    <div class="image">
+                        <img src="image/do-muc-may-in.jpg" alt="">
+                    </div>
+                    <h6>Đổ mực máy in tại nhà chuyên nghiệp</h6>
+                </div>
+                <div class="itemotherservices">
+                    <div class="image">
+                        <img src="image/cai-win.png" alt="">
+                    </div>
+                    <h6>Cài win, cài phần mềm tại nhà uy tín</h6>
+                </div>
+                <div class="itemotherservices">
+                    <div class="image">
+                        <img src="image/may-tinh.png" alt="">
+                    </div>
+                    <h6>Thu mua máy tính, máy in giá cao</h6>
+                </div>
+                <div class="itemotherservices">
+                    <div class="image">
+                        <img src="image/ban-amy.png" alt="">
+                    </div>
+                    <h6>Bán máy tính cũ, mới giá tốt nhất</h6>
+                </div>
+                <div class="itemotherservices">
+                    <div class="image">
+                        <img src="image/sua-may-in.png" alt="">
+                    </div>
+                    <h6>Dịch vụ sửa chữa máy in tại nhà</h6>
+                </div>
+                <div class="itemotherservices">
+                    <div class="image">
+                        <img src="image/sua-may-tinh.png" alt="">
+                    </div>
+                    <h6>Dịch vụ sửa chữa máy tính bảo đảm</h6>
+                </div>
+                <div class="itemotherservices">
+                    <div class="image">
+                        <img src="image/sua-laptop.png" alt="">
+                    </div>
+                    <h6>Dịch vụ sửa laptop lấy ngay</h6>
+                </div>
+            </div>
+        </div>
+        <div class="backgroundimage">
+            <div class="image">
+                <img src="image/slider1.jpg" alt="">
+            </div>
+            <div class="image">
+                <img src="image/slider2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="caymtc" style="width: 1145px;height: 585px;margin-top: 40px">
+            <div class="content-caymtc" style="display: flex">
+                <div class="title-caymtc" style="width: 300px">
+                    <span>KINH NGHIỆM - HƯỚNG DẪN</span>
+                </div>
+                <div class="xemtc" style="width: 850px">
+                    <a href="#" target>Xem tất cả ></a>
+                </div>
+            </div>
+            <div class="othergioithieumain">
+                <div class="othergioithieu">
+                    <div class="topothergioithieu">
+                        <div class="itemothergioithieu">
+                            <div class="image">
+                                <img src="image/2009_impact_2_electropunk_1.jpg" alt="">
+                            </div>
+                            <h6>Asus Giới Thiệu Sản Phẩm Chuột Quang Dây ROG Strix Impact II Electro Punk</h6>
+                            <p>An Phát Computer cùng Asus xin giới thiệu đến các... </p>
+                        </div>
+                        <div class="itemothergioithieu">
+                            <div class="image">
+                                <img src="image/2109_xxl_sheath_electropunk_6.jpg" alt="">
+                            </div>
+                            <h6>Asus Giới Thiệu Sản Phẩm Bàn Di Chơi Game ROG Strix Sheath Electro Punk</h6>
+                            <p>An Phát Computer cùng Asus xin giới thiệu đến các... </p>
+                        </div>
+                        <div class="itemothergioithieu">
+                            <div class="image">
+                                <img src="image/0509_69C005F3-495A-4BF4-87F9-5505DBA3657A.jpeg" alt="">
+                            </div>
+                            <h6>Đánh giá Bàn phím cơ không dây PXN K30 thích ứng mọi nền tảng, nhỏ xinh cho vào cốp xe
+                                máy</h6>
+                            <p>Trong quá trình phát triển nhanh chóng của bàn phím cơ, từ... </p>
+                        </div>
+                    </div>
+                    <div class="topothergioithieu">
+                        <div class="itemothergioithieu">
+                            <div class="image">
+                                <img src="image/2609_Vo-lang-choi-game-pc-maytinh-pxn-v9-270-900-do-ps4-pc-android-xbox-20.jpeg"
+                                     alt="">
+                            </div>
+                            <h6>Trải nghiệm siêu thật với vô lăng PXN V9 số sàn quay 270/900 độ</h6>
+                            <p>MỞ HỘP VÔ LĂNG SỐ SÀN PXN V9 QUAY 270... </p>
+                        </div>
+                        <div class="itemothergioithieu">
+                            <div class="image">
+                                <img src="image/img22.png" alt="">
+                            </div>
+                            <h6>3 cấu hình PC cao cấp ưng nhất đi cùng với tân binh RTX 3080 bạn nên xem ngay</h6>
+                            <p>Vậy là thời gian chính thức mở bán của Nvidia... </p>
+                        </div>
+                        <div class="itemothergioithieu">
+                            <div class="image">
+                                <img src="image/img20-scaled.jpg" alt="">
+                            </div>
+                            <h6>ASUS và cú chơi lớn với VGA TUF GAMING GeForce RTX 3090 đáng trầm trồ</h6>
+                            <p>ASUS là một cái tên lớn trong làng công nghệ,... </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="gioithieuright">
+                    <div class="itemgioithieuright">
+                        <div class="image">
+                            <img src="image/2009_impact_2_electropunk_1.jpg" alt="">
+                        </div>
+                        <div class="text">
+                        <h6>Asus Giới Thiệu Sản Phẩm Chuột Quang Dây ROG Strix Impact II Electro Punk</h6>
+                    </div>
+                    </div>
+                    <div class="itemgioithieuright">
+                        <div class="image">
+                            <img src="image/2109_xxl_sheath_electropunk_6.jpg" alt="">
+                        </div>
+                        <div class="text">
+                        <h6>Asus Giới Thiệu Sản Phẩm Bàn Di Chơi Game ROG Strix Sheath Electro Punk</h6>
+                    </div>
+                    </div><div class="itemgioithieuright">
+                        <div class="image">
+                            <img src="image/0509_69C005F3-495A-4BF4-87F9-5505DBA3657A.jpeg" alt="">
+                        </div>
+                        <div class="text">
+                        <h6>Đánh giá Bàn phím cơ không dây PXN K30 thích ứng mọi nền tảng, nhỏ xinh cho vào cốp xe máy</h6>
+                    </div>
+                    </div><div class="itemgioithieuright">
+                        <div class="image">
+                            <img src="image/2609_Vo-lang-choi-game-pc-maytinh-pxn-v9-270-900-do-ps4-pc-android-xbox-20.jpeg" alt="">
+                        </div>
+                        <div class="text">
+                        <h6>Trải nghiệm siêu thật với vô lăng PXN V9 số sàn quay 270/900 độ</h6>
+                    </div>
+                    </div><div class="itemgioithieuright">
+                        <div class="image">
+                            <img src="image/img22.png" alt="">
+                        </div>
+                        <div class="text">
+                        <h6>3 cấu hình PC cao cấp ưng nhất đi cùng với tân binh RTX 3080 bạn nên xem ngay</h6>
+                    </div>
+                    </div>
+                    <div class="itemgioithieuright">
+                        <div class="image">
+                            <img src="image/img20-scaled.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h6>ASUS và cú chơi lớn với VGA TUF GAMING GeForce RTX 3090 đáng trầm trồ</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="information">
+        <div class="informatino1">
+            <div class="tabinforleft">
+                <div class="infor">
+                    <h5 style="color: #ce0707">Thông tin chung</h5>
+                    <p href="">Giới thiệu</p>
+                    <p href="">Tin tức</p>
+                    <p href="">Liên hệ - Góp ý</p>
+                    <p href="">Khách hàng doanh nghiệp</p>
+                    <p href="">Xây dựng cấu hình</p>
+                </div><div class="infor">
+                    <h5 style="color: #ce0707">Quy định và chính sách</h5>
+                    <p href="">Hướng dẫn mua hàng</p>
+                    <p href="">Bảo hành - Đổi trả</p>
+                    <p href="">Chính sách bảo mật</p>
+                    <p href="">Hình thức thanh toán</p>
+                    <p href="">Chính sách giao hàng</p>
+                </div><div class="infor">
+                    <h5 style="color: #ce0707">Tổng đài hỗ trợ</h5>
+                    <p href="">KD online: 0246.6868.363</p>
+                    <p href="">Chăm sóc KH: 0983.456.132</p>
+                    <p href="">Kỹ thuật: 081.9392.888</p>
+                    <p href="">Góp ý - Khiếu nại: 081.9392.888</p>
+                    <p href="">Email: maytinhtrananhhanoi1@gmail.com</p>
+                </div>
+            </div>
+            <div class="tabinforright">
+                <h5 style="color: #ce0707">Mạng xã hội</h5>
+                <div class="image">
+                    <img src="image/mangxh.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="informatino1">
+            <div class="image">
+                <img src="image/truso.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="banquyen">
+        <img src="image/bq.jpg" alt="">
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>
